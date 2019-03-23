@@ -1,0 +1,20 @@
+{
+    "name": "mywebsite",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Stencil App Starter",
+    "homepage": "https://github.com/JamesMcDougallJr/james.git",
+    "scripts": {
+        "build": "stencil build",
+        "start": "stencil build --dev --watch --serve",
+        "test": "stencil test --spec --e2e",
+        "test.watch": "stencil test --spec --e2e --watchAll",
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "@stencil/core": "~0.16.2",
+        "@stencil/router": "~0.3.1"
+    },
+    "license": "MIT"
+}
