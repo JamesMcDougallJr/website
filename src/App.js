@@ -4,7 +4,7 @@ import { Navbar, Button, Jumbotron, Image, Row, Col} from 'react-bootstrap';
 
 import './App.css';
 
-const bImage = '/images/nature-background.jpg';
+const bImage = 'images/nature-background.jpg';
 
 
 const mainBackground = {
@@ -179,7 +179,7 @@ class App extends Component {
                 </ul>
 
                 <h3 style={h3Style}>Check out the rest of my Resume</h3>
-                <Button href="/Resume 2019.pdf">Click Here</Button>
+                <Button href="pdf/Resume 2019.pdf">Click Here</Button>
 
             </Jumbotron>
             </div>
@@ -206,13 +206,13 @@ class App extends Component {
                         <Col xs={6} md={4}>
                             <p>Facebook</p>
                             <a href="https://www.facebook.com/james.mcdougall.5059">
-                            <Image style={{width:'10vw'}} src="/facebook-logo.png"></Image>
+                            <Image style={{width:'10vw'}} src="images/facebook-logo.png"></Image>
                             </a>
                         </Col>
                         <Col xs={6} md={4}>
                             <p>Linkedin</p>
                             <a href="https://www.linkedin.com/in/james-mcdouga">
-                                <Image style={{width:'15vw'}} src="/linkedin-logo.png"></Image>
+                                <Image style={{width:'15vw'}} src="images/linkedin-logo.png"></Image>
                             </a>
                         </Col>
                     </Row>
@@ -225,10 +225,10 @@ class App extends Component {
                     <Row>
                         <Col xs={6} md={4}>
                             <p>React</p>
-                            <Image style={logoStyle} src="/images/react.svg" rounded fluid />
+                            <Image style={logoStyle} src="images/react.svg" rounded fluid />
                         </Col>
                         <Col xs={6} md={4}>
-                            <Image style={{width:'30vw'}} src="/images/pages-logo.jpeg" rounded fluid />
+                            <Image style={{width:'30vw'}} src="images/pages-logo.jpeg" rounded fluid />
                         </Col>
                     </Row>
                    
