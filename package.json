@@ -4,12 +4,13 @@
     "private": true,
     "homepage": "https://jamesmcdougalljr.github.io/website/",
     "dependencies": {
-        "bootstrap": "3",
+        "bootstrap": "^3.4.1",
         "gh-pages": "^2.0.1",
         "react": "^16.5.2",
         "react-bootstrap": "^0.32.4",
         "react-dom": "^16.5.2",
-        "react-scripts": "2.0.4"
+        "react-scripts": "^2.1.8",
+        "semantic-ui-less": "^2.4.1"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -17,7 +18,8 @@
         "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "dev": "webpack -d --watch"
     },
     "eslintConfig": {
         "extends": "react-app"
