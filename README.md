@@ -1,11 +1,6 @@
-## Info
+## Welcome!
 
-## Info
-...
-## How to test the app
-- Clone this repository to your local machine
-- Install dependencies `yarn install`
-- Start the application `yarn start` The magic happens on port 3000
+This is the repository for my personal website. I threw it together using React, github pages for hosting, and some elbow grease. Feel free to comment on any bugs you see with the site, or features I should add!
 
-## Demo
-Link to Demo App: https://seunzone.github.io/TD-React-Challenge-Test-1/
+James
+
