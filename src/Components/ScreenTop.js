@@ -22,7 +22,8 @@ class ScreenTop extends Component {
                 "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000",
               color: "#e0a33a",
               textAlign: "center",
-              marginTop: "200px"
+              marginTop: "200px",
+              font: "helvetica"
             }}
           >
             James McDougall
@@ -42,22 +43,13 @@ class ScreenTop extends Component {
             }}
           >
             <Carousel.Item>
-              <h1>I am a Coffee Aficionado</h1>
-            </Carousel.Item>
-            <Carousel.Item>
-              <h1>I am a Big Brother</h1>
-            </Carousel.Item>
-            <Carousel.Item>
-              <h1>I am a Friend</h1>
-            </Carousel.Item>
-            <Carousel.Item>
               <h1>I am a Developer</h1>
             </Carousel.Item>
             <Carousel.Item>
               <h1>I am an Engineer</h1>
             </Carousel.Item>
             <Carousel.Item>
-              <h1>I am a Hopeless Wanderer</h1>
+              <h1>I am a Leader</h1>
             </Carousel.Item>
           </Carousel>
         </Jumbotron>
