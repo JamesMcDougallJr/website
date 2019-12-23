@@ -15,9 +15,11 @@ export default function MainIntro() {
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
           James McDougall
         </Typography>
-        <img src="/images/face.jpeg" alt="My Face..." width="auto" height="300" style={{
-          textAlign: "center",
-        }} />
+        <img
+          src="/images/face.jpeg"
+          alt="My Face..."
+          width="auto"
+          style={{ textAlign: "center" }} />
         <Typography variant="h4" align="center" color="textSecondary" paragraph>
           I do computery kinds of things.
         </Typography>
