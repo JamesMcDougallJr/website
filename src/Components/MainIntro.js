@@ -8,18 +8,21 @@ import useStyles from './styles.js';
 export default function MainIntro() {
   const classes = useStyles();
   return (
-    <div className={classes.heroContent} style={{
-      textAlign: "center",
-    }} >
+    <div
+      className={classes.heroContent}
+      style={{ textAlign: "center" }} >
       <Container maxWidth="sm">
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
           James McDougall
         </Typography>
+
         <img
           src="/images/face.jpeg"
           alt="My Face..."
           width="auto"
+          height="500px"
           style={{ textAlign: "center" }} />
+
         <Typography variant="h4" align="center" color="textSecondary" paragraph>
           I do computery kinds of things.
         </Typography>
@@ -27,11 +30,9 @@ export default function MainIntro() {
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justify="center">
             <Grid item>
-              <a href="/pdf/resume.pdf">
                 <Button size="large" variant="contained" color="primary">
                   Download my Resume
               </Button>
-              </a>
             </Grid>
 
             <Grid item>
