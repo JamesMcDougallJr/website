@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Row, Col } from "react-bootstrap";
+import {Image, Col, Row} from "react-bootstrap";
 import Typography from '@material-ui/core/Typography';
 import useStyles from './styles.js';
 
@@ -8,7 +8,6 @@ import useStyles from './styles.js';
  * TODO: add links
  */
 export default function Footer() {
-
   const classes = useStyles();
   return (
     <React.Fragment>
