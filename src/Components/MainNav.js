@@ -12,7 +12,7 @@ class MainNav extends React.Component {
           margin: "0px"
         }} >
         <Navbar.Brand >
-          <Navbar.Link href="#top" > James McDougall </Navbar.Link>
+          <Navbar.Link href="/" > James McDougall </Navbar.Link>
         </Navbar.Brand >
       </ Navbar>
     );

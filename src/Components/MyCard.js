@@ -39,7 +39,7 @@ const MyCard = (props) => {
                 variant="outlined"
                 size="small"
                 color="primary">
-                View {props.type}
+                View {props.type === "project" ? "Project" : "Link"}
               </Button>
             </a>
           </Grid>

@@ -1,0 +1,12 @@
+{
+  "Docker": "/images/docker.png",
+  "Heroku": "/images/heroku.png",
+  "Flask": "/images/flask.png",
+  "HTML5": "/images/html.png",
+  "Jinja": "/images/jinja.jpg",
+  "Postgres": "/images/postgres.svg",
+  "Kubernetes": "/images/kubernetes.png",
+  "Tensorflow": "/images/tensorflow.png",
+  "Bash": "/images/bash.png",
+  "C++": "/images/C++.png"
+}

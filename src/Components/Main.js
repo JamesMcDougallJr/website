@@ -19,7 +19,7 @@ export default function Album() {
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
-                type="Project"
+                type="project"
                 heading="ClubHouse"
                 blog="clubhouse"
                 description="An insightful club management and analytics platform"
@@ -28,7 +28,7 @@ export default function Album() {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
-                type="Project"
+                type="project"
                 heading="Security Camera"
                 blog="security-camera"
                 description="I created a video stream to secure my front door"
@@ -36,11 +36,12 @@ export default function Album() {
               />
             </Grid>
           </Grid>
+
           <h1>Experience</h1>
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
-                type="Webpage"
+                type="experience"
                 link="https://www.cirrascale.com"
                 blog="cirrascale"
                 heading="Cirrascale"
@@ -50,7 +51,7 @@ export default function Album() {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
-                type="Webpage"
+                type="experience"
                 link="https://www.sdsc.edu"
                 blog="sdsc"
                 heading="San Diego Supercomputer Center"
@@ -59,7 +60,7 @@ export default function Album() {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
-                type="Webpage"
+                type="experience"
                 link="https://cse.ucsd.edu/undergraduate/undergraduate-tutors"
                 blog="tutoring"
                 heading="Tutoring"

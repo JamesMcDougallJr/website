@@ -12,7 +12,12 @@ export default function MainIntro() {
       className={classes.heroContent}
       style={{ textAlign: "center" }} >
       <Container maxWidth="sm">
-        <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+        <Typography
+          component="h1"
+          variant="h2"
+          align="center"
+          color="textPrimary"
+          gutterBottom>
           James McDougall
         </Typography>
 
@@ -30,9 +35,11 @@ export default function MainIntro() {
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justify="center">
             <Grid item>
+              <a href="/pdf/resume.pdf">
                 <Button size="large" variant="contained" color="primary">
                   Download my Resume
               </Button>
+              </a>
             </Grid>
 
             <Grid item>
