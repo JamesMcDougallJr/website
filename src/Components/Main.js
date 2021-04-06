@@ -42,6 +42,16 @@ export default function Album() {
             <Grid item xs={12} sm={6} md={4}>
               <MyCard
                 type="experience"
+                link="https://www.centauricorp.com"
+                blog="centauri"
+                heading="Centauri"
+                description="I was a software intern at Centauri Corporation."
+                image="/images/centauri.png"
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <MyCard
+                type="experience"
                 link="https://www.cirrascale.com"
                 blog="cirrascale"
                 heading="Cirrascale"

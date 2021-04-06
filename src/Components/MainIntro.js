@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import useStyles from './styles.js';
+import introduction from '../json/intro.json';
 
 export default function MainIntro() {
   const classes = useStyles();
@@ -33,7 +34,9 @@ export default function MainIntro() {
         </Typography>
 
         <div className={classes.heroButtons}>
+
           <Grid container spacing={2} justify="center">
+
             <Grid item>
               <a href="/pdf/resume.pdf">
                 <Button size="large" variant="contained" color="primary">
@@ -49,7 +52,9 @@ export default function MainIntro() {
               </Button>
               </a>
             </Grid>
+
           </Grid>
+            {introduction["introduction"]}
         </div>
       </Container>
     </div >
